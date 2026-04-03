@@ -97,4 +97,4 @@ Roman Zahlen werden normalerweise von big nach klein geschrieben und addiert. De
 
 ## Stats
 
-![image.png](Roman%20Numbers/image.png)
+![image.png](image.png)
