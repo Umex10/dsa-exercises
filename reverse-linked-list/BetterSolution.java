@@ -8,7 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class BetterSolution {
     // public ListNode reverseList(ListNode head) {
 
     //    ListNode last = null;
