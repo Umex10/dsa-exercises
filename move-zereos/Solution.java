@@ -1,5 +1,4 @@
-class MySolution {
-
+class Solution {
     public void moveZeroes(int[] nums) {
 
         int i = 0;
@@ -12,9 +11,9 @@ class MySolution {
                 nums[i] = nums[l];
                 nums[l] = saveNumber;
                 i++;
-            } 
-        
+            }
+
         }
     }
-    
+
 }

@@ -1,10 +1,4 @@
-class BetterSolution {
-
-  public static void main(String[] args) {
-    int result = romanToInt("III");
-
-    System.out.println(result);
-  }
+class Solution {
 
   public static int romanToInt(String s) {
 

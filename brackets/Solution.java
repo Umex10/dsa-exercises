@@ -3,15 +3,7 @@ package brackets;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MySolution2 {
-
-  public static void main(String[] args) {
-
-    boolean result = areBracketsBalanced("()[]{}");
-
-    System.out.println(result);
-
-  }
+public class Solution {
 
   public static boolean areBracketsBalanced(String s) {
 

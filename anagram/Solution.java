@@ -1,6 +1,6 @@
 package anagram;
 
-class MySolution {
+class Solution {
     public boolean isAnagram(String s, String t) {
         int[] letters = new int[26];
 

@@ -1,6 +1,6 @@
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * public class Solution {
  *     int val;
  *     ListNode next;
  *     ListNode() {}
@@ -10,7 +10,7 @@
  */
 class Solution {
     public ListNode reverseList(ListNode head) {
-        
+
         // 1 --> 2 --> 3
         ListNode last = null;
         ListNode c = head;

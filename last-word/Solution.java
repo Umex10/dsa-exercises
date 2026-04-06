@@ -1,10 +1,4 @@
-class MySolution {
-
-public static void main(String[] args) {
-  int result = lengthOfLastWord("       neues word ");
-  
-  System.out.println(result);
-}
+class Solution {
 
     public static int lengthOfLastWord(String s) {
 
@@ -22,8 +16,8 @@ public static void main(String[] args) {
                 isAChar = true;
                 t++;
             }
-        } 
-        
+        }
+
         return t;
     }
 }

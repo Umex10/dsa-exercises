@@ -1,5 +1,4 @@
-
-public class MySolution {
+public class Solution {
 
   public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 
@@ -31,5 +30,5 @@ public class MySolution {
     // Since we initialized dummy with 0, we only need to return the next of it
     return dummy.next;
   }
-  
+
 }

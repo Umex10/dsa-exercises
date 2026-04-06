@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class BetterSolution {
+class Solution {
     public int[] twoSum(int[] nums, int target) {
 
        Map<Integer, Integer> solution = new HashMap<>();
@@ -17,6 +17,6 @@ class BetterSolution {
             solution.put(nums[i], i);
         }
 
-        return new int[]{}; 
+        return new int[]{};
     }
 }
