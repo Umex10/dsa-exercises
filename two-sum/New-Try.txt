@@ -1,0 +1,24 @@
+Tried two sum again: 
+
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+
+        HashMap<Integer, Integer> n = new HashMap<>();
+
+        for (int i = 0; i < nums.length; i++) {
+
+            int com = target - nums[i];
+
+            if (n.containsKey(com)) {
+                return new int[]{n.get(com), i};
+            }
+
+            n.put(nums[i], i);
+
+        }
+
+        return new int[0];
+    }
+}
+
+Solved in zirka 5 min. Ich werde mir nun den Zwei Zeiger Ansatz merken. 

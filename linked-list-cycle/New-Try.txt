@@ -1,0 +1,43 @@
+Tried Linked List Cycle again:
+
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
+public class Solution {
+    public boolean hasCycle(ListNode head) {
+
+        ListNode slow = head;
+        ListNode fast = head;
+
+        // [3,2,0,-4]
+        // slow --> 2 | fast --> 0
+        // slow --> 0 | fast --> 2
+        // slow --> -4 | fast --> -4
+        // found
+
+        while (fast != null && fast.next != null) {
+
+            slow = slow.next; // + 1 node
+            fast = fast.next.next; // + 2 nodes
+
+            if (slow == fast) {
+                return true;
+            }
+
+        }
+
+        return false;
+
+    }
+}
+
+Hier hatte ich ein Issue gehabt. Der Ansatz war richtig, aber ich hab leider die if bedingung zuerst hingeschreiben und dann die slow = slow.next daher ging es net.
+Ich bin deswegen da fast 10 minuten festgesessen. 
