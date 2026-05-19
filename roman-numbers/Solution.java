@@ -27,6 +27,7 @@ class Solution {
     return total;
   }
 
+  // Switch is O(1)
   private static int getValue(char c) {
     switch (c) {
       case 'I':
