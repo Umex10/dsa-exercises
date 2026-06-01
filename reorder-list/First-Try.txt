@@ -36,6 +36,7 @@ class Solution {
 
         while (head != dummy) {
             //[1,2,3,4]
+            // head darf net dummy sein
 
             ListNode next = head.next; // 2
             ListNode dummyNext = dummy.next;   // 4 --> 3
